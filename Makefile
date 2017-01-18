@@ -10,5 +10,5 @@ all: HelloWorld
 HelloWorld: HelloWorld.c
     $(CC) $(CFLAGS) -o HelloWorld HelloWorld.c
 
-clean veryclean:
-    $(RM) HelloWorld
+test:
+    echo "tested"
